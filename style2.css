@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenir {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(56, 129, 255);
+    width: 100%;
+}
+
+.header_bir {
+    color: white;
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px 0;
+}
+
+.col {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+img{
+    width:100%;
+    height: 400px;
+}
+
+.zalkar{
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 15px;
+    border: 4px solid black;
+    padding: 20px;
+
+    background: rgb(166,9,162);
+background: linear-gradient(90deg, rgba(166,9,162,1) 19%, rgba(146,10,191,1) 34%, rgba(189,46,188,1) 53%, rgba(30,45,152,1) 89%);
+    
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent ;
+}
+
+.zalkar_pidor{
+    text-align: center;
+    padding-bottom: 14px;
+}

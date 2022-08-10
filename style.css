@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenir {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(56, 129, 255);
+    width: 100%;
+}
+
+.header_bir {
+    color: white;
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px 0;
+}
+
+.col {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.obamo{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tramp{
+    width: 350px;
+    position: relative;
+    background-color: black;
+}
+
+.news{
+    transition: transform .5s linear;
+    
+}
+
+.news:hover{
+    transform: translate3d( -30px, -30px, 0);
+}
+
+.news:hover .text {
+    opacity: 1;
+}
+
+
+
+.news img{
+    width: 350px;
+}
+
+.text{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 45%;
+    z-index: 1;
+    font-size: 18px;
+    transition: transform .3s linear;
+    opacity: 0;
+}
+
+
+    
